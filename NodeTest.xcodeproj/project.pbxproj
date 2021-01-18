@@ -7,26 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D297C2925B51C0900307A4B /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D297C2825B51C0900307A4B /* NSString+Hash.m */; };
+		4D297C3725B5243500307A4B /* EncryptAESTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D297C3625B5243500307A4B /* EncryptAESTool.m */; };
+		4D297C3B25B55A0700307A4B /* EncryptRsaTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D297C3A25B55A0600307A4B /* EncryptRsaTool.m */; };
+		4D297C5525B56AB300307A4B /* rsacert.crt in Resources */ = {isa = PBXBuildFile; fileRef = 4D297C4F25B56AB200307A4B /* rsacert.crt */; };
+		4D297C5625B56AB300307A4B /* rsacert.der in Resources */ = {isa = PBXBuildFile; fileRef = 4D297C5025B56AB200307A4B /* rsacert.der */; };
+		4D297C5725B56AB300307A4B /* rsacert.csr in Resources */ = {isa = PBXBuildFile; fileRef = 4D297C5125B56AB200307A4B /* rsacert.csr */; };
+		4D297C5825B56AB300307A4B /* pubic.pem in Resources */ = {isa = PBXBuildFile; fileRef = 4D297C5225B56AB200307A4B /* pubic.pem */; };
+		4D297C5925B56AB300307A4B /* private.pem in Resources */ = {isa = PBXBuildFile; fileRef = 4D297C5325B56AB200307A4B /* private.pem */; };
+		4D297C5A25B56AB300307A4B /* p-123.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 4D297C5425B56AB200307A4B /* p-123.p12 */; };
 		4E3C1CA425B3C93800552786 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C1CA325B3C93800552786 /* AppDelegate.m */; };
 		4E3C1CA725B3C93800552786 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C1CA625B3C93800552786 /* SceneDelegate.m */; };
-		4E3C1CAA25B3C93800552786 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C1CA925B3C93800552786 /* ViewController.m */; };
 		4E3C1CAD25B3C93800552786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C1CAB25B3C93800552786 /* Main.storyboard */; };
 		4E3C1CAF25B3C93900552786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C1CAE25B3C93900552786 /* Assets.xcassets */; };
 		4E3C1CB225B3C93900552786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C1CB025B3C93900552786 /* LaunchScreen.storyboard */; };
 		4E3C1CB525B3C93900552786 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C1CB425B3C93900552786 /* main.m */; };
 		4E3C1CC625B3E9FF00552786 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C1CC525B3E9FF00552786 /* NextViewController.m */; };
-		4E3C1CC925B3F5FA00552786 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C1CC825B3F5FA00552786 /* TreeNode.m */; };
-		4E3C1CCC25B3FD9B00552786 /* TreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C1CCB25B3FD9B00552786 /* TreeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D297C2725B51C0900307A4B /* NSString+Hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		4D297C2825B51C0900307A4B /* NSString+Hash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		4D297C3525B5243500307A4B /* EncryptAESTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptAESTool.h; sourceTree = "<group>"; };
+		4D297C3625B5243500307A4B /* EncryptAESTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptAESTool.m; sourceTree = "<group>"; };
+		4D297C3925B55A0600307A4B /* EncryptRsaTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptRsaTool.h; sourceTree = "<group>"; };
+		4D297C3A25B55A0600307A4B /* EncryptRsaTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptRsaTool.m; sourceTree = "<group>"; };
+		4D297C4F25B56AB200307A4B /* rsacert.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsacert.crt; sourceTree = "<group>"; };
+		4D297C5025B56AB200307A4B /* rsacert.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = rsacert.der; sourceTree = "<group>"; };
+		4D297C5125B56AB200307A4B /* rsacert.csr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsacert.csr; sourceTree = "<group>"; };
+		4D297C5225B56AB200307A4B /* pubic.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pubic.pem; sourceTree = "<group>"; };
+		4D297C5325B56AB200307A4B /* private.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = private.pem; sourceTree = "<group>"; };
+		4D297C5425B56AB200307A4B /* p-123.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "p-123.p12"; sourceTree = "<group>"; };
 		4E3C1C9F25B3C93800552786 /* NodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E3C1CA225B3C93800552786 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E3C1CA325B3C93800552786 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4E3C1CA525B3C93800552786 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		4E3C1CA625B3C93800552786 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		4E3C1CA825B3C93800552786 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4E3C1CA925B3C93800552786 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4E3C1CAC25B3C93800552786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E3C1CAE25B3C93900552786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E3C1CB125B3C93900552786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,10 +50,6 @@
 		4E3C1CB425B3C93900552786 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E3C1CC425B3E9FF00552786 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
 		4E3C1CC525B3E9FF00552786 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
-		4E3C1CC725B3F5FA00552786 /* TreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
-		4E3C1CC825B3F5FA00552786 /* TreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
-		4E3C1CCA25B3FD9B00552786 /* TreeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeView.h; sourceTree = "<group>"; };
-		4E3C1CCB25B3FD9B00552786 /* TreeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D297C1D25B51B5200307A4B /* encryption */ = {
+			isa = PBXGroup;
+			children = (
+				4D297C2725B51C0900307A4B /* NSString+Hash.h */,
+				4D297C2825B51C0900307A4B /* NSString+Hash.m */,
+				4D297C3525B5243500307A4B /* EncryptAESTool.h */,
+				4D297C3625B5243500307A4B /* EncryptAESTool.m */,
+				4D297C3925B55A0600307A4B /* EncryptRsaTool.h */,
+				4D297C3A25B55A0600307A4B /* EncryptRsaTool.m */,
+			);
+			path = encryption;
+			sourceTree = "<group>";
+		};
+		4D297C4E25B56AB200307A4B /* 证书 */ = {
+			isa = PBXGroup;
+			children = (
+				4D297C4F25B56AB200307A4B /* rsacert.crt */,
+				4D297C5025B56AB200307A4B /* rsacert.der */,
+				4D297C5125B56AB200307A4B /* rsacert.csr */,
+				4D297C5225B56AB200307A4B /* pubic.pem */,
+				4D297C5325B56AB200307A4B /* private.pem */,
+				4D297C5425B56AB200307A4B /* p-123.p12 */,
+			);
+			path = "证书";
+			sourceTree = "<group>";
+		};
 		4E3C1C9625B3C93800552786 = {
 			isa = PBXGroup;
 			children = (
@@ -70,18 +108,14 @@
 		4E3C1CA125B3C93800552786 /* NodeTest */ = {
 			isa = PBXGroup;
 			children = (
+				4D297C4E25B56AB200307A4B /* 证书 */,
 				4E3C1CA225B3C93800552786 /* AppDelegate.h */,
 				4E3C1CA325B3C93800552786 /* AppDelegate.m */,
 				4E3C1CA525B3C93800552786 /* SceneDelegate.h */,
 				4E3C1CA625B3C93800552786 /* SceneDelegate.m */,
 				4E3C1CC425B3E9FF00552786 /* NextViewController.h */,
 				4E3C1CC525B3E9FF00552786 /* NextViewController.m */,
-				4E3C1CA825B3C93800552786 /* ViewController.h */,
-				4E3C1CA925B3C93800552786 /* ViewController.m */,
-				4E3C1CC725B3F5FA00552786 /* TreeNode.h */,
-				4E3C1CC825B3F5FA00552786 /* TreeNode.m */,
-				4E3C1CCA25B3FD9B00552786 /* TreeView.h */,
-				4E3C1CCB25B3FD9B00552786 /* TreeView.m */,
+				4D297C1D25B51B5200307A4B /* encryption */,
 				4E3C1CAB25B3C93800552786 /* Main.storyboard */,
 				4E3C1CAE25B3C93900552786 /* Assets.xcassets */,
 				4E3C1CB025B3C93900552786 /* LaunchScreen.storyboard */,
@@ -122,6 +156,7 @@
 				TargetAttributes = {
 					4E3C1C9E25B3C93800552786 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1220;
 					};
 				};
 			};
@@ -149,8 +184,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E3C1CB225B3C93900552786 /* LaunchScreen.storyboard in Resources */,
+				4D297C5A25B56AB300307A4B /* p-123.p12 in Resources */,
+				4D297C5725B56AB300307A4B /* rsacert.csr in Resources */,
+				4D297C5825B56AB300307A4B /* pubic.pem in Resources */,
 				4E3C1CAF25B3C93900552786 /* Assets.xcassets in Resources */,
+				4D297C5525B56AB300307A4B /* rsacert.crt in Resources */,
 				4E3C1CAD25B3C93800552786 /* Main.storyboard in Resources */,
+				4D297C5925B56AB300307A4B /* private.pem in Resources */,
+				4D297C5625B56AB300307A4B /* rsacert.der in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,13 +202,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E3C1CAA25B3C93800552786 /* ViewController.m in Sources */,
 				4E3C1CA425B3C93800552786 /* AppDelegate.m in Sources */,
-				4E3C1CC925B3F5FA00552786 /* TreeNode.m in Sources */,
 				4E3C1CB525B3C93900552786 /* main.m in Sources */,
+				4D297C3B25B55A0700307A4B /* EncryptRsaTool.m in Sources */,
 				4E3C1CC625B3E9FF00552786 /* NextViewController.m in Sources */,
+				4D297C3725B5243500307A4B /* EncryptAESTool.m in Sources */,
+				4D297C2925B51C0900307A4B /* NSString+Hash.m in Sources */,
 				4E3C1CA725B3C93800552786 /* SceneDelegate.m in Sources */,
-				4E3C1CCC25B3FD9B00552786 /* TreeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,15 +348,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NodeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xiaodong.NodeTest;
+				PRODUCT_BUNDLE_IDENTIFIER = zk.NodeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,15 +367,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NodeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xiaodong.NodeTest;
+				PRODUCT_BUNDLE_IDENTIFIER = zk.NodeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
